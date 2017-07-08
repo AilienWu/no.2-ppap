@@ -1,0 +1,9 @@
+#surefire
+#Sat Jul 08 14:20:14 CST 2017
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=J\:\\PPAP
+file.encoding=UTF-8
+localRepository=C\:\\Users\\pc\\.m2\\repository
+netbeans.deploy=true
+netbeans.deploy.clientUrlPart=/list.jsp
+basedir=J\:\\PPAP
