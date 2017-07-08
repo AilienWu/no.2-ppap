@@ -19,16 +19,12 @@
      }
     </style>
 <body>
-	<div style="float:right;width:100%;margin:20px;">
-		<div style="float:right;margin-right:10px;">
-			<b><span>
-				<a href="#">用户名</a>
-			</span></b>
-		</div>
+    <br/>
+    <br/>
+	<div style="margin:5px auto;width:20%;clear:both;color:#ff8040">
+		<h2>${user.username}的歌单秀</h2>
 	</div>
-	<div style="margin:5px auto;width:4%;clear:both">
-		<h2>歌单秀</h2>
-	</div>
+    <br/>
     <div class="btnMode" id="slider">    
 	<a href="javascript:void(0);" class="prev btn"></a>
 	<div class="scroll">	

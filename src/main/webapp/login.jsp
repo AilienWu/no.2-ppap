@@ -15,15 +15,15 @@
   </head>
   <style>
         .raise:hover,
-.raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  -webkit-transform: translateY(-0.25em);
-          transform: translateY(-0.25em);
-}
+        .raise:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+        -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+        }
         .raise {
-  --color: #a972cb;
-  --hover: #e5ff60;
-}
+        --color: #a972cb;
+        --hover: #e5ff60;
+        }
         button {
          color:var(--color);
          -webkit-transition: 0.25s;
@@ -31,11 +31,11 @@
          }
          
         button:hover, button:focus {
-       border-color: var(--hover);
-       color: #fff;
-      }
+        border-color: var(--hover);
+        color: #fff;
+       }
       
-       button {
+        button {
          background: none;
           border: 2px solid;
           font: inherit;
@@ -46,22 +46,22 @@
         }
         
         body {
-  color:#a972cb;
-  background: #17181c;
-  font: 300 1em 'Fira Sans', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+       color:#a972cb;
+       background: #17181c;
+       font: 300 1em 'Fira Sans', sans-serif;
+       -webkit-box-pack: center;
+        -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+       -ms-flex-line-pack: center;
+       align-content: center;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+       text-align: center;
+       min-height: 100vh;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
         }
         
         body{
