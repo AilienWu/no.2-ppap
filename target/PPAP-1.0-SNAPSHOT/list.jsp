@@ -9,6 +9,35 @@
 <link href="css/jq22.css" rel="stylesheet" type="text/css" />
 </head>
     <style>
+        .fill:hover,
+        .fill:focus {
+          box-shadow: inset 0 0 0 2em var(--hover);
+         }
+        .fill {
+           --color: #a972cb;
+           --hover: #cb72aa;
+          }
+
+        button {
+         color:var(--color);
+         -webkit-transition: 0.25s;
+         transition: 0.25s;
+         }
+         
+        button:hover, button:focus {
+       border-color: var(--hover);
+       color: #fff;
+      }
+      
+       button {
+         background: none;
+          border: 2px solid;
+          font: inherit;
+          line-height: 1;
+           margin: 0.5em;
+         padding: 1em 2em;
+        }
+        
 	body{
 		background-image: url('images/back.png');
                 background-repeat: repeat-x;
@@ -93,6 +122,10 @@
 	</div>
 	<a href="javascript:void(0);" class="next btn"></a>     
 </div>
+    <div  style="margin:0 auto;width:10%" >
+              <button type="button" style="width:20px;height:10px" class="fill" id="login" onclick="window.location='login.jsp'" >登录</button>
+              <h2>  </h2>
+            </div>
 <!--
 <div style="width:100%;margin-bottom:20px;">
 	<div style="width:20%;margin:5px auto;">

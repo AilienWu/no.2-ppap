@@ -69,7 +69,7 @@ li{list-style:none;}
 .user_callback #user_pic span.prev:hover{background:url(img/5836af12Neb8a56523.png) no-repeat;}
 .user_callback #user_pic span.next:hover{background:url(img/5836b011N9a4d4531.jpg) no-repeat;}
 .user_callback{background:url('pic/img002.jpg');overflow:hidden;}</style>
-
+    
 <div class="user_callback">  
 	<div class="user_pic" id="user_pic">   
 		<span class="prev"></span>   <span class="next"></span>   

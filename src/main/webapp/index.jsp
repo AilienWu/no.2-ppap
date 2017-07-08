@@ -89,7 +89,7 @@
 	})
 </script>
 
-<iframe src="./MusicJson/table.jsp" width="600" height="800" frameborder="0">
+<iframe src="./MusicJson/table.jsp" width="1200" height="800" frameborder="0">
 <p>您的浏览器不支持</p >
 </iframe>
 
