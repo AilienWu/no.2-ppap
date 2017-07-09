@@ -10,7 +10,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>jQuery圆弧形图片播放插件DEMO演示</title>
+<title>详情页</title>
 </head>
 <body>
 
@@ -68,8 +68,8 @@ li{list-style:none;}
 .user_callback #user_pic span.next{background:url(img/5836af12N536e472b.jpg) no-repeat;position:absolute;top:100px;right:5px;display:inline-block;width:60px;height:60px; }
 .user_callback #user_pic span.prev:hover{background:url(img/5836af12Neb8a56523.png) no-repeat;}
 .user_callback #user_pic span.next:hover{background:url(img/5836b011N9a4d4531.jpg) no-repeat;}
-.user_callback{background:#ccab6e;overflow:hidden;}</style>
-
+.user_callback{background:url('pic/img002.jpg');overflow:hidden;}</style>
+    
 <div class="user_callback">  
 	<div class="user_pic" id="user_pic">   
 		<span class="prev"></span>   <span class="next"></span>   

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* 效果CSS开始 */
+#brand {width:800px;height:600px;border:1px solid #dddddd;box-shadow:0px 0px 0px #dddddd;margin:30px auto;overflow:hidden;}
+#brand .title {width:100%;height:60px;line-height:35px;font-size:40px;margin-top:4px;border-bottom:2px solid #33261c;text-align:center;color:#000000;}
+#brand .bd-box {width:760px;height:600px;overflow:hidden;padding:0px 30px;background-color:#ffffff}
+#brand .bd-box li {float:left;width:320px;height:480px;overflow:hidden;position:relative;margin:10px 10px 0px 10px;_margin:10px 10px 0px 5px;}
+#brand .bd-box li img {width:320px;	height:480px;border:1px solid #e9e8e8;position:absolute;left:0px;top:0px;z-index:2;overflow:hidden;}
+#brand .bd-box li span {width:320px;border:1px solid #e9e8e8;position:absolute;	left:0px;z-index:1;	text-align:center;line-height:30px;font-size:24px;font-family:'幼圆';color:#FFF;background:#6E7B8B;font-weight:bold;overflow:hidden;height:0px;display:none;top:38px;}
+#brand .bd-box li a {width:320px;height:480px;position:absolute;left:0px;top:0px;z-index:3;}
+/* 效果CSS结束 */
