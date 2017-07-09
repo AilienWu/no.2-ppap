@@ -60,7 +60,7 @@
 	<div class="scroll">	
 		<ul class="scrollContainer">
 			<li class="panel" id="panel_1">
-				<a href="song.jsp" class="inside" >
+				<a onclick="window.open('song.jsp')" href="#" class="inside" >
 					<img width="500" height="500" alt="《追光者》岑宁儿" src="LP/L1.png" />
 					<span>《追光者》岑宁儿</span>
 				</a>
@@ -124,7 +124,7 @@
 	<a href="javascript:void(0);" class="next btn"></a>     
 </div>
     <div  style="margin:0 auto;width:100px;" >
-      <button type="button" style="width:100px;height:40px;padding:0" class="fill" id="login" onclick="window.location='login.jsp'" >登录</button>
+      <button type="button" style="width:100px;height:40px;padding:0" class="fill" id="return" onclick="window.location='index.jsp'" >注销</button>
             </div>
 <!--
 <div style="width:100%;margin-bottom:20px;">

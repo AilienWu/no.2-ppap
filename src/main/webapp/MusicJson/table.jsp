@@ -14,7 +14,7 @@
    <div id="brand">
   <ul class='bd-box'>
 <% 
-    JSONObject json = JsonReader.readJsonFromUrl("http://localhost:8100/PPAP/MusicJson/api.jsp");
+    JSONObject json = JsonReader.readJsonFromUrl("http://localhost:8084/PPAP/MusicJson/api.jsp");
     JSONArray  songs = json.getJSONArray("musics");
     String titles[] = new String[20];
     String singers[] = new String[20];

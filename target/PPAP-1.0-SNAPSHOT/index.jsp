@@ -88,7 +88,7 @@
 <br>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-<h1 style="color:black;font-size:70px;font-family:迷你简蝶语"class="keTitle">每日排行榜</h1>
+<h1 style="color:black;font-size:70px;font-family:方正卡通简体"class="keTitle">每日排行榜</h1>
 <iframe style="color:black" src="./MusicJson/table.jsp" width="1200" height="500" frameborder="0">
 <p>您的浏览器不支持</p >
 </iframe>
