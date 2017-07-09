@@ -34,6 +34,7 @@
           border: 2px solid;
           font: inherit;
           line-height: 1;
+          column-width: 1;
            margin: 0.5em;
          padding: 1em 2em;
         }
@@ -122,9 +123,8 @@
 	</div>
 	<a href="javascript:void(0);" class="next btn"></a>     
 </div>
-    <div  style="margin:0 auto;width:10%" >
-              <button type="button" style="width:20px;height:10px" class="fill" id="login" onclick="window.location='login.jsp'" >登录</button>
-              <h2>  </h2>
+    <div  style="margin:0 auto;width:100px;" >
+      <button type="button" style="width:100px;height:40px;padding:0" class="fill" id="login" onclick="window.location='login.jsp'" >登录</button>
             </div>
 <!--
 <div style="width:100%;margin-bottom:20px;">
@@ -153,8 +153,8 @@
 	<div class="mp-box">
 		<img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
 		<div class="mp-info">
-			<p class="mp-name">燕归巢</p>
-			<p class="mp-singer">许嵩</p>
+			<p class="mp-name">追光者</p>
+			<p class="mp-singer">岑宁儿</p>
 			<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
 		</div>
 		<div class="mp-btn">

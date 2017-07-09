@@ -9,12 +9,12 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>List</title>
     </head>
+    
     <body>
    <div id="brand">
-       <div class='title'> 排行榜 <br/></div>
   <ul class='bd-box'>
 <% 
-    JSONObject json = JsonReader.readJsonFromUrl("http://localhost:8084/PPAP/MusicJson/api.jsp");
+    JSONObject json = JsonReader.readJsonFromUrl("http://localhost:8100/PPAP/MusicJson/api.jsp");
     JSONArray  songs = json.getJSONArray("musics");
     String titles[] = new String[20];
     String singers[] = new String[20];
@@ -42,8 +42,6 @@
     
   </ul>
    
-</div>
-
 <script src="js/jquery.js"></script>
 <script>
 			//display:block;height:75px;top:0px;		显示

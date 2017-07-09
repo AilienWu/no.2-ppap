@@ -50,12 +50,14 @@
     </style>
     
   <body>
-	<div style="margin:0 auto;width:20%;font-size:10;color:white"  >
-            <h2> PPAP 音乐网站</h2>
+      <br />
+	<div >
+            <h2 style="margin:0 auto;width:20%;color:white;font-size:40px;" >  PPAP 音乐网站 </h2>
         </div>
+      <br />
         <div  style="margin:0 auto;width:10%;" >
               <button type="button" class="fill" id="login" onclick="window.location='login.jsp'" >登录</button>
-              <h2>  </h2>
+              <br>
             </div>
       <div style="margin:0 auto;width:80%;" >
       <img src="pic/1.jpg" />
@@ -64,17 +66,12 @@
 <br />
 <br />
 <p></p>
-    <footer class="main-footer">
-	<div style="width:40%;margin:5px auto;">
-		<strong>Copyright &copy; 2001-2017 <a href="#">PPAP北京有限公司</a>.</strong> All rights 
-	</div>
-</footer>  
+  
      <p></p>
 <br />
 <br />
 <p></p>    
 </body>
-</html>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
 <script>
 	$(function(){
@@ -88,9 +85,17 @@
 		},1500)
 	})
 </script>
-
-<iframe src="./MusicJson/table.jsp" width="1200" height="800" frameborder="0">
+<br>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<h1 style="color:black;font-size:70px;font-family:迷你简蝶语"class="keTitle">每日排行榜</h1>
+<iframe style="color:black" src="./MusicJson/table.jsp" width="1200" height="500" frameborder="0">
 <p>您的浏览器不支持</p >
 </iframe>
 
+   <footer class="main-footer">
+	<div style="width:40%;margin:5px auto;">
+		<strong>Copyright &copy; 2001-2017 <a href="#">PPAP北京有限公司</a>.</strong> All rights 
+	</div>
+</footer> 
 </html>

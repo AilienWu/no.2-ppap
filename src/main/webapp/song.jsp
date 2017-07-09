@@ -262,7 +262,7 @@ function getStyle(obj,name)
 <div class="kePublic">
 <!--效果html开始-->
   <div class="music-player">
-  <div style="background-image: url(images/yqB0erk.jpg);" class="album"></div>
+  <div style="background-image: url(images/yqB0erk.jpg); background-repeat: repeat-x;" class="album"></div>
   <div class="info">
     <div class="left">
       <a href="javascript:;" class="icon-shuffle"></a>
