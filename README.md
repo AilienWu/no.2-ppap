@@ -9,4 +9,4 @@
 # 使用方法
 ## 使用软件：NetBeans、Myeclipse
 ## 运行环境：Apache Tomcat、GlassFish Server
-# 数据库截图：![](http://github.com/dandandeyousangjun/no.2-ppap/raw/master/database/数据库截图.png)
+# 数据库截图：![](https://github.com/dandandeyousangjun/no.2-ppap/blob/master/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%88%AA%E5%9B%BE.png)
