@@ -9,6 +9,9 @@
 # 使用方法
 ## 使用软件：NetBeans、Myeclipse
 ## 运行环境：Apache Tomcat、GlassFish Server
-# 数据库截图：
+# 数据库：
+## 数据库截图：
 ### ![](https://github.com/dandandeyousangjun/no.2-ppap/blob/master/database/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%88%AA%E5%9B%BE.png)
-### ![](https://github.com/dandandeyousangjun/no.2-ppap/blob/master/database/%E8%84%9A%E6%9C%AC1.png)
+## 脚本截图
+![](https://github.com/dandandeyousangjun/no.2-ppap/blob/master/database/%E8%84%9A%E6%9C%AC1.png)
+![](https://github.com/dandandeyousangjun/no.2-ppap/blob/master/database/%E8%84%9A%E6%9C%AC2.png）
